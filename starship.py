@@ -45,8 +45,11 @@ if __name__ == '__main__':
     get_starship_result("https://swapi.dev/api/starships/")
     get_film_result("https://swapi.dev/api/films/")
     print("Exercise 1 result")
+    print("All ships that appeared in Return of the Jedi :")
     print(all_ships_in_return_of_jedi())   # Exercise 1 result
     print("Exercise 2 result") 
+    print("All ships that have a hyperdrive rating >= 1.0 :")
     print(all_ships_hyperdrive_rating_condition())   # Exercise 2 result
     print("Exercise 3 result")
+    print("All ships that have crews between 3 and 100 :")
     print(all_ships_with_crew_condition())  # Exercise 3 result
